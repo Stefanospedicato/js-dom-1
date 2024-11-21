@@ -1,3 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+div{
+  border: 3px solid white;
+  border-radius: 30px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
 .hide{
   display: none;
 }
@@ -5,26 +21,24 @@
 #bottone{
   border-radius: 20px;
   border: 3px solid black;
-  padding: 20px 50px 20px 50px;
-  background-color: blue;
-  color: white;
+  padding:20px 50px 20px 50px;
+  height: 80px;
+  background-color: yellow;
+  color:black ;
+  font-weight: bold;
   cursor: pointer;
   position: relative;
-  top: -175px;
-  left: 100px;
+  top: 125px;
+  left: 50px;
+}
+
+#bottone:hover{
+  transform: scale(1.2) ;
 }
 
 .off-lamp{
   position: relative;
   top:0;
-  left:40px;
+  left:45px;
 }
 
-body{
-  background-color: black;
-}
-
-button:hover{
-  transform: scale(1.2) ;
- 
-}
