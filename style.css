@@ -1,0 +1,17 @@
+.hide{
+  display: none;
+}
+
+#bottone{
+  border-radius: 5px;
+  border: 3px solid black;
+  padding: 10px;
+  background-color: white;
+}
+
+.off-lamp{
+  position: relative;
+  top:0;
+  left:40px;
+}
+
