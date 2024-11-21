@@ -3,10 +3,15 @@
 }
 
 #bottone{
-  border-radius: 5px;
+  border-radius: 20px;
   border: 3px solid black;
-  padding: 10px;
-  background-color: white;
+  padding: 20px 50px 20px 50px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  top: -175px;
+  left: 100px;
 }
 
 .off-lamp{
@@ -15,3 +20,11 @@
   left:40px;
 }
 
+body{
+  background-color: black;
+}
+
+button:hover{
+  transform: scale(1.2) ;
+ 
+}

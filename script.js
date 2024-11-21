@@ -5,5 +5,5 @@ const btn = document.getElementById('bottone');
 btn.addEventListener('click', ()=>{
   lampadinaSpenta.classList.toggle('hide');
   lampadinaAccesa.classList.toggle('hide');
-  btn.innerHTML = lampadinaSpenta.classList.contains('hide') ? 'Spegni' : 'Accendi';
+  btn.innerHTML = lampadinaSpenta.classList.contains('hide') ? 'SPEGNI' : 'ACCENDI';
 })
